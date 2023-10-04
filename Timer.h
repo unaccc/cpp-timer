@@ -3,7 +3,7 @@
 #include <chrono>
 
 
-namespace Time {
+namespace Timer {
     int begin_count = 0, end_count = 0;
     std::chrono::time_point<std::chrono::system_clock> t1;
     std::chrono::time_point<std::chrono::system_clock> t2;
